@@ -1,7 +1,7 @@
 ---
 title_sa: vedanta
 title_en: advaita
-link: /classes/vedanta
+link: classes/vedanta
 ---
 
 Understand the upanishadic teachings, following Adi Shankaracharya.

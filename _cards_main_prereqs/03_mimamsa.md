@@ -1,7 +1,7 @@
 ---
 title_sa: mimamsa
 title_en: thesis
-link: /classes/mimamsa
+link: classes/mimamsa
 ---
 
 Understand how the vedas are structured, and how to understand their teachings.
