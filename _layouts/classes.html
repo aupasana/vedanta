@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+  <!-- {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%} -->
+
+  {% if page.shastra == "tarka" %}
+    {% assign classes = site.cards_classes_tarka %}
+  {% elsif page.shastra == "vyakarana" %}
+    {% assign classes = site.cards_classes_vyakarana %}
+  {% elsif page.shastra == "mimamsa" %}
+    {% assign classes = site.cards_classes_mimamsa %}
+  {% elsif page.shastra == "vedanta" %}
+    {% assign classes = site.cards_classes_vedanta %}
+  {% endif %}
+
+<h1>{{ page.shastra }} classes</h1>
+
+  <div class="row row-cols-1 row-cols-md-3 mb-3">
+  {% for class in classes %}
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm">
+
+        <div class="card-header py-3 text-center">
+            <h4 class="my-0 fw-normal">
+              <img class="class-title-icon" src="../assets/book.svg"/>
+              {{ class.grantha }}
+            </h4>
+        </div>
+        <div class="card-body">
+            <div class="p-3">
+              <div><img class="class-icon" src="../assets/person.svg"/>{{ class.acharya }}</div>
+              <div><img class="class-icon" src="../assets/megaphone.svg"/>{{ class.bhasha }}</div>
+              <div><img class="class-icon" src="../assets/box-arrow-up-right.svg"/>{{ class.site }}</div>
+              {{ req.content }}
+            </div>
+        </div>
+        <div class="card-footer">
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary"
+            onclick="window.open('{{ class.link }}')">Launch</button>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+
+  {{ content }}
