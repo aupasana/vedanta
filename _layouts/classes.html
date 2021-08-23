@@ -23,9 +23,19 @@ layout: default
   <div class="row row-cols-1 row-cols-md-3 mb-3">
   {% for class in classes %}
     <div class="col">
+      {% if class.featured %}
+      <div class="card mb-4 rounded-3 shadow-sm border-primary">
+      {% else %}
       <div class="card mb-4 rounded-3 shadow-sm">
+      {% endif %}
 
+        <!-- {% if class.featured %}
+        <div class="card-header py-3 text-white bg-primary border-primary text-center">
+        {% else %}
         <div class="card-header py-3 text-center">
+        {% endif %} -->
+        <div class="card-header py-3 text-center">
+
             <h4 class="my-0 fw-normal">
               <img class="class-title-icon" src="{{site.url}}{{site.baseurl}}/assets/book.svg"/>
               {{ class.grantha }}
@@ -42,8 +52,11 @@ layout: default
             </div>
         </div>
         <div class="card-footer">
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary"
-            onclick="window.open('{{class.link}}')">Launch</button>
+          {% if class.featured %}
+          <button type="button" class="w-100 btn btn-lg btn-primary" onclick="window.open('{{class.link}}')">Launch</button>
+          {% else %}
+          <button type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="window.open('{{class.link}}')">Launch</button>
+          {% endif %}
         </div>
       </div>
     </div>
