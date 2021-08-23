@@ -2,6 +2,12 @@
 layout: default
 ---
 
+<div class="vedanta-header p-3 pb-md-4 mx-auto text-center">
+    <h1 class="display-4 fw-normal">vedanta 101</h1>
+    <p class="fs-5 text-muted">A basic traditional study of vedanta</p>
+</div>
+
+
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
@@ -19,10 +25,10 @@ layout: default
             </div>
         </div>
         <div class="card-footer">
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="window.location='{{site.url}}/{{site.baseurl}}/{{req.link}}'">Study</button>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="window.location='{{site.url}}/{{site.baseurl}}/{{req.link}}'">Classes</button>
          </div>
     </div>
   {% endfor %}
   </div>
-
+  
   {{ content }}
