@@ -1,4 +1,5 @@
 ---
+display: janakrisharan acharya
 acharya: janakisharan acharya
 shastra: vedanta
 grantha: vedanta sara
@@ -7,4 +8,5 @@ site: youtube
 link: https://www.youtube.com/playlist?list=PLWjpkY4mU2RCpwpp-H9x82Kp9BWIFmFQe
 number: 33
 status: complete
+tag: sara
 ---

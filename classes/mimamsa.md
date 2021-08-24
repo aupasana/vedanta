@@ -6,3 +6,4 @@ layout: classes
 shastra: mimamsa
 ---
 
+{% include classes_by_tag.html tag="artha" display="artha sangraha" %}

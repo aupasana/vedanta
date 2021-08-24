@@ -1,4 +1,5 @@
 ---
+display: sw. brahmananda
 acharya: swami brahmananda
 shastra: mimamsa
 grantha: artha sangraha
@@ -7,4 +8,5 @@ site: youtube
 link: https://www.youtube.com/playlist?list=PLtDshib-NjgaXjVmtWH5pukVVU2x4Lmxc
 number: 81
 status: complete
+tag: artha
 ---

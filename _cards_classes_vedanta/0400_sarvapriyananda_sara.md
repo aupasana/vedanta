@@ -1,4 +1,5 @@
 ---
+display: sw. sarvapriyananda
 acharya: swami sarvapriyananda
 shastra: vedanta
 grantha: vedanta sara
@@ -7,4 +8,5 @@ site: youtube
 link: https://www.youtube.com/playlist?list=PLDqahtm2vA70ccqIRFR_lipqKvxrHBRRw
 number: 37
 status: complete
+tag: sara
 ---

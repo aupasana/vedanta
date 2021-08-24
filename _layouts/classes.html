@@ -6,63 +6,8 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%} -->
 
-  {% if page.shastra == "tarka" %}
-    {% assign classes = site.cards_classes_tarka %}
-  {% elsif page.shastra == "vyakarana" %}
-    {% assign classes = site.cards_classes_vyakarana %}
-  {% elsif page.shastra == "mimamsa" %}
-    {% assign classes = site.cards_classes_mimamsa %}
-  {% elsif page.shastra == "vedanta" %}
-    {% assign classes = site.cards_classes_vedanta %}
-  {% endif %}
-
   <div class="vedanta-header p-3 pb-md-4 mx-auto text-center">
     <h1 class="display-4 fw-normal">{{page.shastra}} classes</h1>
   </div>
 
   {{ content }}
-
-  <div class="row row-cols-1 row-cols-md-3 mb-3">
-  {% for class in classes %}
-    <div class="col">
-      {% if class.featured %}
-      <div class="card mb-4 rounded-3 shadow-sm border-primary">
-      {% else %}
-      <div class="card mb-4 rounded-3 shadow-sm">
-      {% endif %}
-
-        <!-- {% if class.featured %}
-        <div class="card-header py-3 text-white bg-primary border-primary text-center">
-        {% else %}
-        <div class="card-header py-3 text-center">
-        {% endif %} -->
-        <div class="card-header py-3 text-center">
-
-            <h4 class="my-0 fw-normal">
-              <img class="class-title-icon" src="{{site.baseurl}}/assets/book.svg"/>
-              {{ class.grantha }}
-            </h4>
-        </div>
-        <div class="card-body">
-            <div class="p-3">
-              <div><img class="class-icon" src="{{site.baseurl}}/assets/person.svg"/>{{ class.acharya }}</div>
-              <div><img class="class-icon" src="{{site.baseurl}}/assets/megaphone.svg"/>{{ class.bhasha }}</div>
-              {% if class.number %}
-              <div><img class="class-icon" src="{{site.baseurl}}/assets/hash.svg"/>{{ class.number }} classes</div>
-              {% endif %}
-              <div><img class="class-icon" src="{{site.baseurl}}/assets/arrow-repeat.svg"/>{{ class.status }}</div>
-              <div><img class="class-icon" src="{{site.baseurl}}/assets/box-arrow-up-right.svg"/>{{ class.site }}</div>
-              {{ req.content }}
-            </div>
-        </div>
-        <div class="card-footer">
-          {% if class.featured %}
-          <button type="button" class="w-100 btn btn-lg btn-primary" onclick="window.open('{{class.link}}')">Launch</button>
-          {% else %}
-          <button type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="window.open('{{class.link}}')">Launch</button>
-          {% endif %}
-        </div>
-      </div>
-    </div>
-  {% endfor %}
-  </div>

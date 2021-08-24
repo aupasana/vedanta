@@ -17,3 +17,9 @@ body {
   .class-icon {
       padding-right: 10pt;
   }
+
+  h3 {
+      text-align: left;
+      padding-left: 0pt;
+
+  }
