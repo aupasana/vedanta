@@ -1,10 +1,10 @@
 ---
 title_sa: mimamsa
-title_en: thesis
+title_en: interpretation
 link: classes/mimamsa
 ---
 
-Understand how the vedas are structured, and how to understand their teachings.
+How do we reconcile the statements of the vedas? What is it's import?
 
 - artha sangraha
 - nyaya prakasha

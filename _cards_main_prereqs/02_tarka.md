@@ -4,7 +4,7 @@ title_en: logic
 link: classes/tarka
 ---
 
-Learn the basics of Indian logic. How do we understand the world?
+How do we understand the world? How do we communicate it precisely?
 
 - tarka sangraha
 - nyaya muktavali
