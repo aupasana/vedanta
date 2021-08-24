@@ -6,3 +6,4 @@ layout: classes
 shastra: vedanta
 ---
 
+While there are many vedanta classes, the tattva bodha and vedanta sara cover the essential teachings with clarity. 
