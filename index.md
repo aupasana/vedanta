@@ -5,3 +5,6 @@
 layout: home
 ---
 
+A basic understanding of of vyakarana, tarka and mimamsa is essential for 
+the successful study of any traditional shastra. This is especially true for
+vedanta. Selected links are given below.

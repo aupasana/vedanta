@@ -7,28 +7,23 @@ layout: default
     <p class="fs-5 text-muted">A basic traditional study of vedanta</p>
 </div>
 
+{{ content }}
 
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  <div class="card-group">
-  {% for req in site.cards_main_prereqs %}
-    <div class="card rounded-3">
-        <div class="card-header py-3 text-center">
-            <h4 class="my-0 fw-normal">{{ req.title_sa }}</h4>
-            <h4 class="my-1 fw-normal">( {{ req.title_en }} )</h4>
+<div class="card-group">
+{% for req in site.cards_main_prereqs %}
+  <div class="card rounded-3">
+      <div class="card-header py-3 text-center">
+          <h4 class="my-0 fw-normal">{{ req.title_sa }}</h4>
+          <h4 class="my-1 fw-normal">( {{ req.title_en }} )</h4>
+      </div>
+      <div class="card-body">
+          <div class="p-3">
+              {{ req.content }}
+          </div>
+      </div>
+      <div class="card-footer">
+          <button type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="window.location='{{site.url}}{{site.baseurl}}/{{req.link}}'">Classes</button>
         </div>
-        <div class="card-body">
-            <div class="p-3">
-                {{ req.content }}
-            </div>
-        </div>
-        <div class="card-footer">
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="window.location='{{site.url}}{{site.baseurl}}/{{req.link}}'">Classes</button>
-         </div>
-    </div>
-  {% endfor %}
   </div>
-  
-  {{ content }}
+{% endfor %}
+</div>
