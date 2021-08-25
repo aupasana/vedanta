@@ -33,24 +33,24 @@
 
             <div class="card-body">
                 <div class="p-3">
-                    <div><img class="class-title-icon" src="{{site.baseurl}}/assets/book.svg"/>{{ class.grantha }}</div>
+                    <div><img class="class-title-icon" src="{{site.baseurl}}/assets/icons/book.svg"/>{{ class.grantha }}</div>
                     {% if class.tika %}
-                    <div><img class="class-title-icon" src="{{site.baseurl}}/assets/pencil.svg"/>with {{ class.tika }}</div>
+                    <div><img class="class-title-icon" src="{{site.baseurl}}/assets/icons/pencil.svg"/>with {{ class.tika }}</div>
                     {% endif %}
-                    <div><img class="class-icon" src="{{site.baseurl}}/assets/person.svg"/>{{ class.acharya }}</div>
-                    <div><img class="class-icon" src="{{site.baseurl}}/assets/megaphone.svg"/>{{ class.bhasha }}</div>
+                    <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/person.svg"/>{{ class.acharya }}</div>
+                    <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/megaphone.svg"/>{{ class.bhasha }}</div>
                     {% if class.number %}
-                    <div><img class="class-icon" src="{{site.baseurl}}/assets/hash.svg"/>{{ class.number }} classes</div>
+                    <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/hash.svg"/>{{ class.number }} classes</div>
                     {% endif %}
                     {% if class.status == "complete" %}
-                    <div><img class="class-icon" src="{{site.baseurl}}/assets/check-square.svg"/>{{ class.status }}</div>
+                    <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/check-square.svg"/>{{ class.status }}</div>
                     {% elsif class.status == "ongoing" %}
-                    <div><img class="class-icon" src="{{site.baseurl}}/assets/arrow-repeat.svg"/>{{ class.status }}</div>
+                    <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/arrow-repeat.svg"/>{{ class.status }}</div>
                     {% endif %}
                     {% if class.site contains "youtube" %}
-                    <div><img class="class-icon" src="{{site.baseurl}}/assets/youtube.svg"/>{{ class.site }}</div>
+                    <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/youtube.svg"/>{{ class.site }}</div>
                     {% else %}                   
-                    <div><img class="class-icon" src="{{site.baseurl}}/assets/box-arrow-up-right.svg"/>{{ class.site }}</div>
+                    <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/box-arrow-up-right.svg"/>{{ class.site }}</div>
                     {% endif %}
                     {{ req.content }}
                 </div>

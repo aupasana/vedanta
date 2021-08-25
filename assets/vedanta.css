@@ -21,5 +21,8 @@ body {
   h3 {
       text-align: left;
       padding-left: 0pt;
+  }
 
+  .card-group {
+      padding-bottom: 2rem;
   }
