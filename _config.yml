@@ -36,6 +36,10 @@ collections:
   - cards_classes_vedanta
   - cards_syllabus
 
+# Site specific variables
+
+use_cdn: true
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
