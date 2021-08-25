@@ -25,6 +25,6 @@ layout: default
 
 <h2 class="pb-2 border-bottom bg-light">vedanta books</h2>
 
-- [tattvabodha with hindi commentary sw. vidyanand](https://archive.org/details/TattvabodhaHindiKailash)
-- [tattvabodha with hindi commentary sw. divyanand](https://archive.org/details/TattvabodhaAtmabodha)
-- [vedantasara with subodhini](https://archive.org/details/VedantaSara1916WithTwoCOmmentariesNirnaySagarPress)
+- [tattvabodha with hindi commentary by sw. vidyanand](https://archive.org/details/TattvabodhaHindiKailash)
+- [tattvabodha with hindi commentary by sw. divyanand](https://archive.org/details/TattvabodhaAtmabodha)
+- [vedantasara with subodhini and vidvan manoranjani tikas](https://archive.org/details/VedantaSara1916WithTwoCOmmentariesNirnaySagarPress)
