@@ -28,23 +28,6 @@ layout: default
 {% endfor %}
 </div>
 
-<h2 class="pb-2 border-bottom bg-light text-center">traditional syllabus</h2>
-
-The full vedanta syllabus for the famed Tenali exams and Nagara pariksha are given below.</p>
-
-<div class="card-group">
-    {% for syllabus in site.cards_syllabus %}
-      <div class="card rounded-3">
-          <div class="card-header py-3 text-center">
-              <h4 class="my-0 fw-normal">{{ syllabus.title }}</h4>
-          </div>
-          <div class="card-body">
-              <div class="p-3">
-                  {{ syllabus.content }}
-              </div>
-          </div>
-      </div>
-    {% endfor %}
+<div>
+The complete traditional syllabus is given <a href="{{site.baseurl}}/classes/syllabus">here.</a>
 </div>
-    
-
