@@ -26,3 +26,7 @@ body {
   .card-group {
       padding-bottom: 2rem;
   }
+
+  .featured {
+      color: #CC0000;
+  }

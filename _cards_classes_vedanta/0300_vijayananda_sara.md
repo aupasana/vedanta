@@ -1,5 +1,5 @@
 ---
-display: bodhini
+display: with bodhini
 acharya: swami vijayananda
 shastra: vedanta
 grantha: vedanta sara

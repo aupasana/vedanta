@@ -1,5 +1,5 @@
 ---
-display: janakrisharan acharya
+display: mula (hindi)
 acharya: janakisharan acharya
 shastra: vedanta
 grantha: vedanta sara

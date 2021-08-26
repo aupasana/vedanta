@@ -1,5 +1,5 @@
 ---
-display: bodhini
+display: hindi
 acharya: vishvanath dhital
 shastra: tarka
 grantha: tarka sangraha
@@ -9,5 +9,5 @@ site: youtube
 link: https://www.youtube.com/playlist?list=PLP4YK61hqZBjzYJiCzMAeTB_eEYkx_nMP
 number: 23
 status: complete
-tag: sangraha
+tag: bodhini
 ---

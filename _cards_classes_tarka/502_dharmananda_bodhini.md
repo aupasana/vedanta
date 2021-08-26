@@ -1,5 +1,5 @@
 ---
-display: bodhini
+display: hindi
 acharya: swami shantidharmananda
 shastra: tarka
 grantha: tarka sangraha
@@ -9,5 +9,5 @@ site: youtube (audio)
 link: https://www.youtube.com/playlist?list=PLOK49oELkE2PIFFaMuaarQiShWQxJpvuF
 number: 50
 status: complete
-tag: sangraha
+tag: bodhini
 ---

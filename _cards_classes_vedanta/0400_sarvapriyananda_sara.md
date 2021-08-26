@@ -1,5 +1,5 @@
 ---
-display: sw. sarvapriyananda
+display: mula (english)
 acharya: swami sarvapriyananda
 shastra: vedanta
 grantha: vedanta sara

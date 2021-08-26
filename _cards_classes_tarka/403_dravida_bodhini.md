@@ -1,5 +1,5 @@
 ---
-display: bodhini
+display: english
 acharya: dravida acharya
 shastra: tarka
 grantha: tarka sangraha
@@ -9,5 +9,5 @@ site: audio links
 link: http://shastranethralaya.org/discourse/nyayabodhini/
 number: 33
 status: complete
-tag: sangraha
+tag: bodhini
 ---

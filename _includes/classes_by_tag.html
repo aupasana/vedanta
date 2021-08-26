@@ -16,12 +16,14 @@
       {% if class.tag == include.tag %}
 
         <div class="col">
-            {% if class.featured %}
+            <!-- {% if class.featured %}
             <div class="card mb-4 rounded-3 shadow-sm border-primary">
             {% else %}
             <div class="card mb-4 rounded-3 shadow-sm">
-            {% endif %}
-    
+            {% endif %} -->
+
+            <div class="card mb-4 rounded-3 shadow-sm">
+
             <!-- {% if class.featured %}
             <div class="card-header py-3 text-white bg-primary border-primary text-center">
             {% else %}
@@ -52,15 +54,19 @@
                     {% else %}                   
                     <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/box-arrow-up-right.svg"/>{{ class.site }}</div>
                     {% endif %}
+                    {% if class.featured %}                   
+                    <div class="featured"><img class="class-icon" src="{{site.baseurl}}/assets/icons/star-fill-red.svg"/>recommended</div>
+                    {% endif %}
                     {{ req.content }}
                 </div>
             </div>
             <div class="card-footer">
-                {% if class.featured %}
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="window.open('{{class.link}}')">Launch</button>
+                <!-- {% if class.featured %}
                 <button type="button" class="w-100 btn btn-lg btn-primary" onclick="window.open('{{class.link}}')">Launch</button>
                 {% else %}
                 <button type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="window.open('{{class.link}}')">Launch</button>
-                {% endif %}
+                {% endif %} -->
             </div>
             </div>
         </div>

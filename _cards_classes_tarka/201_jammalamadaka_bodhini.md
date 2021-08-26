@@ -1,5 +1,5 @@
 ---
-display: bodhini
+display: sanskrit
 acharya: srinivas jammalamadaka
 shastra: tarka
 grantha: tarka sangraha
@@ -9,5 +9,5 @@ site: youtube
 link: https://www.youtube.com/playlist?list=PLkifuFXK5Kof9af-nutuXN7brOp6D39to
 number: 40
 status: complete
-tag: sangraha
+tag: bodhini
 ---

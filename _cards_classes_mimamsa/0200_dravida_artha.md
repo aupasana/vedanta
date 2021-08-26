@@ -1,5 +1,5 @@
 ---
-display: dravid acharya
+display: english
 acharya: dravida acharya
 shastra: mimamsa
 grantha: artha sangraha

@@ -1,5 +1,5 @@
 ---
-display: sw. shantidharmananda
+display: hindi
 acharya: swami shantidharmananda
 shastra: mimamsa
 grantha: artha sangraha
