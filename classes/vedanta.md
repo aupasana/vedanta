@@ -6,7 +6,7 @@ layout: class
 shastra: vedanta
 ---
 
-While there are many vedanta classes, the tattva bodha and vedanta sara cover the essential teachings with clarity. 
+While there are many vedanta texts, the tattva bodha and vedanta sara succinctly cover the essential teachings with clarity. 
 
 {% include classes_by_tag.html tag="bodha" display="tattva bodha" %}
 

@@ -4,7 +4,7 @@ title_en: advaita
 link: classes/vedanta
 ---
 
-What is the upanishadic teaching? What does Adi Shankaracharya tell us?
+What is the upanishadic teaching explained by Adi Shankaracharya?
 
 - tattva bodha
 - vedanta sara

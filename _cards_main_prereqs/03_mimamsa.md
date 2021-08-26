@@ -4,6 +4,6 @@ title_en: interpretation
 link: classes/mimamsa
 ---
 
-How do we reconcile the statements of the vedas? What is it's import?
+How do we reconcile the statements of the vedas?
 
 - artha sangraha
