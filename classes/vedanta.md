@@ -11,3 +11,13 @@ While there are many vedanta texts, the tattva bodha and vedanta sara succinctly
 {% include classes_by_tag.html tag="bodha" display="tattva bodha" %}
 
 {% include classes_by_tag.html tag="sara" display="vedanta sara" %}
+
+<h2 class="pb-2 border-bottom bg-light text-center">further study</h2>
+
+Once the study of the prerequisites is complete, the study of vedanta continues.
+
+- vedanta paribhasha (focusing on the pramana)
+- siddhanta lesha sangraha (focusing on the prameya)
+- upanishad bhashya
+- bhagavad gita bhashya
+- brahma sutra bhashya
