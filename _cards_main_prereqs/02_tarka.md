@@ -4,6 +4,6 @@ title_en: logic
 link: classes/tarka
 ---
 
-How do we understand the world? How do we communicate it precisely?
+How do we understand the world and communicate that understanding?
 
 - tarka sangraha

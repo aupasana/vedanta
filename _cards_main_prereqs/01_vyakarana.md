@@ -4,7 +4,7 @@ title_en: grammar
 link: classes/vyakarana
 ---
 
-What are well-formed words and sentences? What do they mean?
+What do well-formed sanskrit words and sentences mean?
 
 - basic sanskrit
 - laghu kaumudi
