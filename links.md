@@ -32,7 +32,7 @@ books:
       tika: --
       link: https://archive.org/details/tarkasangrahalaksanatippanirajanarayanashuklachowkambha_202003_601_s
     - name: tarka sangraha
-      tika: nyaya bodhini, padakriya, balamanorama
+      tika: nyaya bodhini, padakritya, balamanorama
       link: https://archive.org/details/tarkasangrahanyayabodhinipadakrutyachandrajasimhabalamanoramaguruprasadshastripa_202003_136_J
     - name: tarka sangraha
       tika: dipika and hindi vivarana
