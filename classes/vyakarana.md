@@ -6,6 +6,9 @@ layout: class
 shastra: vyakarana
 ---
 
-A basic understanding of vyakarana is essential to the study of all shastras. The derivations based on Panini's sutras are quoted throughout the bhashyas and tikas.
+<div class="page-description">
+A basic understanding of vyakarana is essential to the study of all shastras. The bhashyas and tikas
+are based on the meanings of words, which follow the derivations explained in Panini's sutras.
+</div>
 
 {% include classes_by_tag.html tag="laghu" display="laghu siddhanta kaumudi" %}

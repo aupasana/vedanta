@@ -10,8 +10,8 @@ layout: default
 </div>
 
 The [essentials syllabus]({{site.baseurl}}/) is nothing more than the basic introduction to each shastra.
-The gold standard for the traditional syllabus is the Tenali syllabus, after which students are examined
-by the sringeri or kanchi shankaracharyas themselves.
+The gold standard for the traditional teaching is the Tenali system, in which students pass a final oral exam
+by the Sringeri or Kanchi shankaracharyas themselves. 
 
 {% include syllabus_from_cards.html syllabus_name="tenali" %}
 
