@@ -1,0 +1,28 @@
+
+{{ include.display }}
+
+{% if include.syllabus_name == "essentials" %}
+    {% assign cards_syllabus = site.cards_syllabus_essentials %}
+{% else if include.syllabus_name == "tenali" %}
+    {% assign cards_syllabus = site.cards_syllabus_tenali %}
+{% endif %}
+
+<div class="card-group">
+    {% for syllabus in cards_syllabus %}
+      <div class="card rounded-3">
+          <div class="card-header py-3 text-center">
+              <h4 class="my-0 fw-normal">{{ syllabus.title_sa }}</h4>
+              <h4 class="my-1 fw-normal">( {{ syllabus.title_en }} )</h4>
+          </div>
+          <div class="card-body">
+              <div class="p-3">
+                  {{ syllabus.content }}
+              </div>
+          </div>
+          <div class="card-footer">
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="window.location='{{site.baseurl}}/{{syllabus.link}}'">Classes</button>
+            </div>
+      </div>
+    {% endfor %}
+</div>
+    

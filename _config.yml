@@ -29,12 +29,12 @@ plugins:
   - jekyll-feed
 
 collections:
-  - cards_main_prereqs
+  - cards_syllabus_essentials
+  - cards_syllabus_tenali
   - cards_classes_vyakarana
   - cards_classes_tarka
   - cards_classes_mimamsa
   - cards_classes_vedanta
-  - cards_syllabus
 
 # Site specific variables
 
