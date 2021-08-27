@@ -14,9 +14,13 @@ A study of tarka -- particularly navya nyaya -- gives us the vocabulary which is
 One reason for the study of tarka shastra is to learn navya nyaya terminology. This is widely used in vedanta study. The following classes focus narrowly on basic paribhashas.
 {% endcapture %}
 
-{% include classes_by_tag.html tag="pravesha" display="tarka pravesha (paribhasha)" content=paribhasha_content%}
+{% include classes_by_tag.html tag="pravesha" display="tarka pravesha (paribhasha)" content=paribhasha_content %}
 
-{% include classes_by_tag.html tag="mula" display="tarka sangraha (mulam)"%}
+{% capture mulam_content %}
+The tikas presuppose a basic understanding of the content of the tarka sangraha. Understanding it's structure and approach, as well a basic understanding of it's main teachings will be helpful in reading any of the tikas.
+{% endcapture %}
+
+{% include classes_by_tag.html tag="mula" display="tarka sangraha (mulam)" content=mulam_content %}
 
 {% include classes_by_tag.html tag="pada" display="tarka sangraha with padakritya"%}
 
