@@ -1,75 +1,79 @@
+<div class="classes-by-tag">
 
-{% if page.shastra == "tarka" %}
-    {% assign classes = site.cards_classes_tarka %}
-{% elsif page.shastra == "vyakarana" %}
-    {% assign classes = site.cards_classes_vyakarana %}
-{% elsif page.shastra == "mimamsa" %}
-    {% assign classes = site.cards_classes_mimamsa %}
-{% elsif page.shastra == "vedanta" %}
-    {% assign classes = site.cards_classes_vedanta %}
-{% endif %}
+    {% if page.shastra == "tarka" %}
+        {% assign classes = site.cards_classes_tarka %}
+    {% elsif page.shastra == "vyakarana" %}
+        {% assign classes = site.cards_classes_vyakarana %}
+    {% elsif page.shastra == "mimamsa" %}
+        {% assign classes = site.cards_classes_mimamsa %}
+    {% elsif page.shastra == "vedanta" %}
+        {% assign classes = site.cards_classes_vedanta %}
+    {% endif %}
 
-<h2 class="pb-2 border-bottom bg-light text-center">{{ include.display }}</h2>
+    <h2 class="pb-2 border-bottom bg-light text-center">{{ include.display }}</h2>
 
-<div class="row row-cols-1 row-cols-md-3 mb-3">
-    {% for class in classes %}
-      {% if class.tag == include.tag %}
+    <div class="class-tag-description">{{include.content}}</div>
 
-        <div class="col">
-            <!-- {% if class.featured %}
-            <div class="card mb-4 rounded-3 shadow-sm border-primary">
-            {% else %}
-            <div class="card mb-4 rounded-3 shadow-sm">
-            {% endif %} -->
+    <div class="row row-cols-1 row-cols-md-3 mb-3">
+        {% for class in classes %}
+        {% if class.tag == include.tag %}
 
-            <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="col">
+                <!-- {% if class.featured %}
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                {% else %}
+                <div class="card mb-4 rounded-3 shadow-sm">
+                {% endif %} -->
 
-            <!-- {% if class.featured %}
-            <div class="card-header py-3 text-white bg-primary border-primary text-center">
-            {% else %}
-            <div class="card-header py-3 text-center">
-            {% endif %} -->
-            <div class="card-header py-3 text-center">   
-                <h4 class="my-0 fw-normal">{{ class.display }}</h4>
-            </div>
+                <div class="card mb-4 rounded-3 shadow-sm">
 
-            <div class="card-body">
-                <div class="p-3">
-                    <div><img class="class-title-icon" src="{{site.baseurl}}/assets/icons/book.svg"/>{{ class.grantha }}</div>
-                    {% if class.tika %}
-                    <div><img class="class-title-icon" src="{{site.baseurl}}/assets/icons/pencil.svg"/>with {{ class.tika }}</div>
-                    {% endif %}
-                    <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/person.svg"/>{{ class.acharya }}</div>
-                    <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/megaphone.svg"/>{{ class.bhasha }}</div>
-                    {% if class.number %}
-                    <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/hash.svg"/>{{ class.number }} classes</div>
-                    {% endif %}
-                    {% if class.status == "complete" %}
-                    <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/check-square.svg"/>{{ class.status }}</div>
-                    {% elsif class.status == "ongoing" %}
-                    <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/arrow-repeat.svg"/>{{ class.status }}</div>
-                    {% endif %}
-                    {% if class.site contains "youtube" %}
-                    <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/youtube.svg"/>{{ class.site }}</div>
-                    {% else %}                   
-                    <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/box-arrow-up-right.svg"/>{{ class.site }}</div>
-                    {% endif %}
-                    {% if class.featured %}                   
-                    <div class="featured"><img class="class-icon" src="{{site.baseurl}}/assets/icons/star-fill-red.svg"/>recommended</div>
-                    {% endif %}
-                    {{ req.content }}
+                <!-- {% if class.featured %}
+                <div class="card-header py-3 text-white bg-primary border-primary text-center">
+                {% else %}
+                <div class="card-header py-3 text-center">
+                {% endif %} -->
+                <div class="card-header py-3 text-center">   
+                    <h4 class="my-0 fw-normal">{{ class.display }}</h4>
+                </div>
+
+                <div class="card-body">
+                    <div class="p-3">
+                        <div><img class="class-title-icon" src="{{site.baseurl}}/assets/icons/book.svg"/>{{ class.grantha }}</div>
+                        {% if class.tika %}
+                        <div><img class="class-title-icon" src="{{site.baseurl}}/assets/icons/pencil.svg"/>with {{ class.tika }}</div>
+                        {% endif %}
+                        <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/person.svg"/>{{ class.acharya }}</div>
+                        <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/megaphone.svg"/>{{ class.bhasha }}</div>
+                        {% if class.number %}
+                        <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/hash.svg"/>{{ class.number }} classes</div>
+                        {% endif %}
+                        {% if class.status == "complete" %}
+                        <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/check-square.svg"/>{{ class.status }}</div>
+                        {% elsif class.status == "ongoing" %}
+                        <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/arrow-repeat.svg"/>{{ class.status }}</div>
+                        {% endif %}
+                        {% if class.site contains "youtube" %}
+                        <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/youtube.svg"/>{{ class.site }}</div>
+                        {% else %}                   
+                        <div><img class="class-icon" src="{{site.baseurl}}/assets/icons/box-arrow-up-right.svg"/>{{ class.site }}</div>
+                        {% endif %}
+                        {% if class.featured %}                   
+                        <div class="featured"><img class="class-icon" src="{{site.baseurl}}/assets/icons/star-fill-red.svg"/>recommended</div>
+                        {% endif %}
+                        {{ req.content }}
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="window.open('{{class.link}}')">Launch</button>
+                    <!-- {% if class.featured %}
+                    <button type="button" class="w-100 btn btn-lg btn-primary" onclick="window.open('{{class.link}}')">Launch</button>
+                    {% else %}
+                    <button type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="window.open('{{class.link}}')">Launch</button>
+                    {% endif %} -->
+                </div>
                 </div>
             </div>
-            <div class="card-footer">
-                <button type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="window.open('{{class.link}}')">Launch</button>
-                <!-- {% if class.featured %}
-                <button type="button" class="w-100 btn btn-lg btn-primary" onclick="window.open('{{class.link}}')">Launch</button>
-                {% else %}
-                <button type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="window.open('{{class.link}}')">Launch</button>
-                {% endif %} -->
-            </div>
-            </div>
+            {% endif %}
+        {% endfor %}
         </div>
-        {% endif %}
-      {% endfor %}
-    </div>
+</div>

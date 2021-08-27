@@ -6,7 +6,9 @@ layout: class
 shastra: vedanta
 ---
 
+<div class="page-description">
 While there are many vedanta texts, the tattva bodha and vedanta sara succinctly cover the essential teachings with clarity. 
+</div>
 
 {% include classes_by_tag.html tag="bodha" display="tattva bodha" %}
 
