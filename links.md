@@ -16,6 +16,10 @@ channels:
       org: kailash ashram
       lang: hindi
       link: https://www.youtube.com/channel/UCPqECyffnKOhuYV-1GwAdkg
+    - guru: br. pragyan chaitanya
+      org: sadhana sadan ashram
+      lang: hindi
+      link: https://www.youtube.com/channel/UC_abXPZodhG0Oy_XepwiaCA
     - guru: srinivas jammalamadaka
       org:  --
       lang: sanskrit
