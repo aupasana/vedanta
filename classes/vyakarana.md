@@ -12,3 +12,11 @@ are based on the meanings of words, which follow the derivations explained in Pa
 </div>
 
 {% include classes_by_tag.html tag="laghu" display="laghu siddhanta kaumudi" %}
+
+{% capture sanskrit_content %}
+Working functional knowledge is a prerequisite to the study of grammar. 
+One approach to this is given below.
+{% endcapture %}
+
+{% include classes_by_tag.html tag="sanskrit" display="functional sanskrit" content=sanskrit_content%}
+
