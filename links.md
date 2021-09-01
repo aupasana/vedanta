@@ -24,6 +24,14 @@ channels:
       org:  --
       lang: sanskrit
       link: https://www.youtube.com/c/JammalamadakaSrinivas
+    - guru: --
+      org: bharatiya sanskrit gurukulam
+      lang: hindi
+      link: https://www.youtube.com/channel/UChv3qC0BuvsWyNQ2s1zwEUA/playlists    
+    - guru: dr. vishvanath dhital
+      org: shastra chintanam
+      lang: hindi
+      link: https://www.youtube.com/channel/UClGCwPOQj7JCK57kvF3eTng/playlists    
     - guru: dravidacharya
       org: shastralayalam
       lang: english, tamil, hindi
@@ -101,7 +109,7 @@ books:
             <tr>
                 <td>{{b.name}}</td>
                 <td>{{b.tika}}</td>
-                <td><a href="{{c.link}}">archive.org link</a></td>
+                <td><a href="{{b.link}}">archive.org link</a></td>
             </tr>
         {% endfor %}
         </tbody>
