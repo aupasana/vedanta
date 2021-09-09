@@ -6,4 +6,8 @@ layout: class
 shastra: mimamsa
 ---
 
+<div markdown="1" class="page-description">
+Students are expected to memorize the text.
+</div>
+
 {% include classes_by_tag.html tag="artha" display="artha sangraha" %}

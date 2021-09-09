@@ -6,8 +6,9 @@ layout: class
 shastra: tarka
 ---
 
-<div class="page-description">
-A study of tarka -- particularly navya nyaya -- gives us the vocabulary which is used extensively in the discussion of all shastras. The basic requirement is a study of the tarka sangraha along with one of the commentaries (usually the dipika or nyaya bodhini).
+<div markdown="1" class="page-description">
+A study of tarka -- particularly navya nyaya -- gives us the vocabulary which is used extensively in the discussion of all shastras. The basic requirement is a study of the tarka sangraha along with one of the commentaries (usually the dipika or nyaya bodhini). Students are expected to memorize the mula text as 
+well as the lakshanas.
 </div>
 
 {% capture paribhasha_content %}
