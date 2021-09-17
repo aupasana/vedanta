@@ -16,6 +16,14 @@ channels:
       org: kailash ashram
       lang: hindi
       link: https://www.youtube.com/channel/UCPqECyffnKOhuYV-1GwAdkg
+    - guru: swami divya chaitanya
+      org: sadhana sadan ashram
+      lang: hindi
+      link: https://www.youtube.com/channel/UC4hQrvPOvvCvW2jz93C1odQ
+    - guru: acharya mohan chaitanya
+      org: sadhana sadan ashram
+      lang: hindi
+      link: https://www.youtube.com/channel/UCFxhmadUSkxjnrmEOXP36IQ
     - guru: br. pragyan chaitanya
       org: sadhana sadan ashram
       lang: hindi
